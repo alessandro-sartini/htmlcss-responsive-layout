@@ -1,42 +1,62 @@
 /* Soluzione qui */
-@media screen and (min-height: 768px) {
+@media screen and (min-width: 750px) {
     
     #topbar {
-     
+        
         justify-content: left;
         
     } 
     .recipe-name::after {
-
+        
         content: "(Dolce Tradizionale)";
-
-
+        
+        
     }
     #logo{
         font-size: 4rem;
     }
     .quick-notes ul{
-    display: flex; 
-    flex-wrap: wrap;
-    padding-bottom: 20px;
-   }
-   .quick-notes li{
-
-    margin-right: 40px;
+        display: flex; 
+        flex-wrap: wrap;
+        padding-bottom: 20px;
+    }
+    .quick-notes li{
+        
+        margin-right: 40px;
+        
+    }
     
-   }
-
-   .btn{
-    padding: 10px 55px;
-   }
-   .ads {
-	display: block;
+    .btn{
+        padding: 10px 55px;
+    }
+    .ads {
+        display: block;
     }
     .presentation img {
         float: left;
         margin-right: 20px;
-
+        
     }
-   
-
+    .container {
+        max-width: 85%;
+    }
+    
+    
 }
+
+
+/*Modalità Desktop(sopra i 992px)  */
+@media screen and (min-width: 992px) {
+
+
+    .recipe-name{
+        font-size: 5rem;
+    }
+
+    .container {
+        max-width: 85%;
+    }
+    
+
+
+} 
