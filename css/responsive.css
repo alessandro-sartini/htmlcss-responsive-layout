@@ -27,9 +27,8 @@
         
     } 
     .recipe-name::after {
-        
-        content: "(Dolce Tradizionale)";
-        
+        max-width: 100%;
+        content: "(Dolce Tradizionale)";  
         
     }
     #logo{
@@ -51,6 +50,9 @@
     }
     .ads {
         display: block;
+    }
+    .ads img{
+        min-width: 100%;
     }
     .presentation img {
         float: left;
@@ -79,6 +81,7 @@
     }
     
     .recipe-card {
+        margin-block: 40px;
         display: flex;
     }
     .recipe-video{
