@@ -1,0 +1,35 @@
+/* Soluzione qui */
+@media screen and (min-height: 768px) {
+    
+    #topbar {
+     
+        justify-content: left;
+        
+    } 
+    .recipe-name::after {
+
+        content: "(Dolce Tradizionale)";
+
+
+    }
+    #logo{
+        font-size: 4rem;
+    }
+    .quick-notes ul{
+    display: flex; 
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+   }
+   .quick-notes li{
+
+    margin-right: 40px;
+    
+   }
+
+   .btn{
+    padding: 10px 55px;
+   }
+   .social-networks::after {
+   }
+
+}
