@@ -26,28 +26,36 @@
         justify-content: left;
         
     } 
-    .recipe-name::after {
+    /* .recipe-name::after {
         max-width: 100%;
         content: "(Dolce Tradizionale)";  
         
+    } */
+    .recipe-origin {
+        display: inline-block;
     }
     #logo{
         font-size: 4rem;
     }
     .quick-notes ul{
         display: flex; 
+        align-items: center;
         flex-wrap: wrap;
+        /* gap: 10px; */
         padding-bottom: 20px;
     }
     .quick-notes li{
+        flex-basis: 33%;
         
-        margin-right: 40px;
-        
+    }
+    .solcial-networks button{
+        padding-inline: 50px;
+
     }
     
-    .btn{
+    /* .btn{
         padding: 10px 45px;
-    }
+    } */
     .ads {
         display: block;
     }
@@ -56,8 +64,7 @@
     }
     .presentation img {
         float: left;
-        margin-right: 20px;
-        
+        margin-right: 20px;     
     }
     .container {
         max-width: 85%;
@@ -85,19 +92,32 @@
         display: flex;
     }
     .recipe-video{
-        min-width: 70%;
+        min-width: 75%;
         height: 30vw;
     }
     .recipe-info{
         align-items: center;
-        min-width: 30%;
+        min-width: 25%;
        
     }
     .quick-notes ul {
+        align-items: self-start;
         flex-direction: column;
 
     }
-    .fa-facebook::after{
+    .recipe-video {
+        height: auto;
+    }
+    
+    .social-networks .label {
+        display: inline;
+    }
+    .container {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    
+    /* .fa-facebook::after{
          content: " Facebook";
          font-size: 1.2rem;
          font-style: bold;
@@ -124,7 +144,7 @@
           content: " Instagram";
          font-size: 1.2rem;
          font-style: bold;
-    }
+    } */
     footer{
         display: flex;
         justify-content: space-between;
